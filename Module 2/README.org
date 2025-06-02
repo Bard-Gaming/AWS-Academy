@@ -1,4 +1,4 @@
-#+title: Module 2
+#+title: Module 2: Cloud Economics and Billing
 #+author: Bard-Gaming
 #+date: Mon Jun  2 12:22:38 2025
 
@@ -16,5 +16,5 @@ AWS Organisations can be used to manage the
 pricing better / more accurately.
 
 ** Sections
-- [[./billing.org][Billing / Pricing]]
-- [[./organisations.org][Organisations]]
+- [[file:billing.org][Billing / Pricing]]
+- [[file:organisations.org][Organisations]]

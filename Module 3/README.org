@@ -1,0 +1,3 @@
+#+title: Module 3: AWS Global Infrastructure
+#+author: Bard-Gaming
+#+date: Mon Jun  2 14:04:19 2025
