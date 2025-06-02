@@ -1,0 +1,22 @@
+#+title: AWS Organisations
+#+author: Christophe DRONNE
+#+date: Mon Jun  2 11:26:09 2025
+
+
+* Groups / Organisations
+This service allows you to create
+groups ("organisations", from hereon "orgs"), which
+act as lower-level accounts with specific permissions
+and responsabilities.
+
+* Branches
+Each branch represents a department or team.
+Yeah nothing much to add there, the previous point
+explained it pretty well.
+
+* Organisational Units (OUs)
+Organisational Units are groups / clusters
+of branches. These OUs are used to apply a specific
+policy onto multiple branches / orgs.
+
+[[./AWS Orgs.png]]

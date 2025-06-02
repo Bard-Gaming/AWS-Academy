@@ -1,0 +1,69 @@
+#+title: AWS Services
+#+author: Christophe DRONNE
+#+date: Mon Jun  2 10:50:39 2025
+
+
+[[./images/AWS Services.png]]
+
+[[./images/AWS Service Categories.png]]
+
+
+* Storage
+Database / Data storage services.
+
+** S3
+"Simply Storage Service", i.e. the service
+you use when you want simple, static pages.
+
+** RDS
+"Relational Database Service", i.e. the service
+you use when you want a DB in the SQL family.
+
+** DynamoDB
+Same as RDS except that it uses NoSQL, meaning
+this isn't a relational database.
+
+** Redshift
+Highly scalable service, specifically made
+for website analytics.
+
+
+
+* Compute
+Services which allow you to process information.
+
+** EC2
+Main service for backend implementation
+
+** Lambda
+For specific operations that should be run
+only at specific times (not all the time).
+
+
+* Networking / Routing
+Services that are used to do the networking
+required to run a web service.
+
+** Amazon VPC
+"Virtual Private Cloud" - full control
+over your service's networking. This includes
+- Physical Placement
+- Securing the connections
+- Choosing IP range
+
+
+* Management
+** Organisations
+See [[./organisations.org][Organisations]] for more info.
+(And yes, they talked about this service in
+particular separately)
+
+
+* Security
+Services that prevent those gnarly network
+pirates from attack your services! Yarr!
+
+** IAM
+"Identity and Access Management" - guardrails,
+access management, whatever. It's a login manager
+from what I can tell.

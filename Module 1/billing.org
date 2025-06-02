@@ -1,0 +1,76 @@
+#+title: AWS Billing
+#+author: Christophe DRONNE
+#+date: Mon Jun  2 11:03:34 2025
+
+
+* General
+** Tiers
+For any service used, pricing is tiered,
+meaning the more you use, the less you
+pay per cycle.
+
+** Services
+Core services that are free of charge
+are:
+
+- Amazon VPC (routing)
+- Elastic Beanstalk*
+- Autoscaling*
+- AWS CloudFormation*
+- IAM
+
+/*Note: These services might use other/
+/services which do have a fee./
+
+This also means that (most) services cost
+money to use (kinda obvious, but yk).
+
+** Ownership
+The Total Cost of Ownership (TCO) is a way
+to get an "absolute" cost that allows you
+to compare what you pay AWS vs. what it
+would cost you to host your servers on-premise.
+This allows you to see how much money you save
+using AWS (how convenient ;) ).
+
+The estimation considers the following:
+- Server Costs (obviously)
+- Storage Costs (Storage Area Network (SAN) & Fibre Channel (FC) switches)
+- Network Costs (internet, LAN, and load balancer)
+- Server Admin Costs
+
+In case they ask you how much you save using AWS:
+*Up to 96% a year!!1!*
+
+AWS also has a pricing calculator, f.y.i.
+
+* Compute
+Backend services.
+
+** Cycle
+Pay per hour (usual) or per second (Linux)
+
+** Pricing
+Varies by instance "type"
+
+
+* Storage
+Database and storage services.
+
+** Cycle
+pay per gigabyte stored
+
+** Pricing
+Fixed (specific amount unclear)
+
+
+* Data Transfer
+Internet connection between server and client.
+
+** Cycle
+pay per gigabyte of information
+exchanged (typically).
+
+** Pricing
+- outbound is aggregated and charged
+- inbound is free (with exceptions)
