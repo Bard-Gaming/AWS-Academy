@@ -3,13 +3,13 @@
 #+date: Mon Jun  2 11:03:34 2025
 
 
-* General
-** Tiers
+** General
+*** Tiers
 For any service used, pricing is tiered,
 meaning the more you use, the less you
 pay per cycle.
 
-** Services
+*** Services
 Core services that are free of charge
 are:
 
@@ -25,7 +25,7 @@ are:
 This also means that (most) services cost
 money to use (kinda obvious, but yk).
 
-** Ownership
+*** Ownership
 The Total Cost of Ownership (TCO) is a way
 to get an "absolute" cost that allows you
 to compare what you pay AWS vs. what it
@@ -42,35 +42,78 @@ The estimation considers the following:
 In case they ask you how much you save using AWS:
 *Up to 96% a year!!1!*
 
-AWS also has a pricing calculator, f.y.i.
+AWS provides a *pricing calculator*, allowing the user
+to see a cost estimate of the services they would use.
 
-* Compute
+
+
+** Support Plans
+Support plans are paid plans that allow you to
+access a certain number of features, depending on
+your specific needs.
+
+These plans are, in order:
+- *Basic*
+- *Developer*
+- *Business*
+- *Enterprise*
+
+/Note: Due to the fact that the plans seem to change/
+/their price requirements, I omitted the prices here/
+/(it isn't a requirement to know these anyways)/
+
+
+
+** Economies of Scale
+Due to AWS's ability to aggregate user demands onto
+their servers, AWS services become cheaper the more
+users pay for their products. This is what AWS calls
+Economies of Scale, as the prices get cheaper with
+more users of the platform.
+
+
+
+** Compute
 Backend services.
 
-** Cycle
+*** Cycle
 Pay per hour (usual) or per second (Linux)
 
-** Pricing
-Varies by instance "type"
+*** Pricing
+Varies by instance type.
+
+When it comes to EC2, there are so-called
+*Reserved Instances (RI)*, of which there
+exist 3 specific options.
+These are:
+
+- PURI: Partial Upfront RI
+- AURI: All Upfront RI
+- NURI: No Upfront RI
+
+/Note: You can remember them by the mnemonic/
+PAN /(Partial, All, No)/
 
 
-* Storage
+
+** Storage
 Database and storage services.
 
-** Cycle
+*** Cycle
 pay per gigabyte stored
 
-** Pricing
+*** Pricing
 Fixed (specific amount unclear)
 
 
-* Data Transfer
+
+** Data Transfer
 Internet connection between server and client.
 
-** Cycle
+*** Cycle
 pay per gigabyte of information
 exchanged (typically).
 
-** Pricing
+*** Pricing
 - outbound is aggregated and charged
 - inbound is free (with exceptions)

@@ -1,0 +1,20 @@
+#+title: Module 2
+#+author: Bard-Gaming
+#+date: Mon Jun  2 12:22:38 2025
+
+
+** Descriptive
+This module explains the billing process
+and costs tied to running a web service
+with AWS.
+
+** Overview
+The AWS follows a *pay as you go* philosophy.
+This pricing is *tiered*, meaning you pay less
+per unit the bigger your service.
+AWS Organisations can be used to manage the
+pricing better / more accurately.
+
+** Sections
+- [[./billing.org][Billing / Pricing]]
+- [[./organisations.org][Organisations]]
