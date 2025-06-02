@@ -1,0 +1,18 @@
+#+title: Module 1
+#+author: Bard-Gaming
+#+date: Mon Jun  2 12:08:20 2025
+
+
+** Descriptive
+This module is a general overview over what
+the Cloud and its many services are.
+
+** Overview
+This module serves as an introduction, and is
+thus relatively simple and easy to understand.
+As such, the documentation here isn't very extensive,
+as, quite frankly, that would be a waste of time.
+
+** Sections
+- [[./benefits.org][The 6 Benefits of the Cloud]]
+- [[./services.org][AWS Services]]
