@@ -1,0 +1,11 @@
+#+title: AWS Academy Notes
+#+author: Christophe DRONNE
+#+date: Mon Jun  2 11:41:02 2025
+
+
+This repository is organised into the 10 different modules
+that are required to obtain the Cloud Practitioner certificate.
+
+These are:
+- [[./Module 1][Module 1: Cloud Concepts]]
+- [[./Module 2][Module 2: Cloud Economics and Billing]]

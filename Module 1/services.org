@@ -3,9 +3,7 @@
 #+date: Mon Jun  2 10:50:39 2025
 
 
-[[./images/AWS Services.png]]
-
-[[./images/AWS Service Categories.png]]
+/For the visual diagrams, skip to [[Diagrams]]./
 
 
 * Storage
@@ -54,7 +52,7 @@ over your service's networking. This includes
 
 * Management
 ** Organisations
-See [[./organisations.org][Organisations]] for more info.
+See [[../Module 2/organisations.org][Organisations]] for more info.
 (And yes, they talked about this service in
 particular separately)
 
@@ -67,3 +65,12 @@ pirates from attack your services! Yarr!
 "Identity and Access Management" - guardrails,
 access management, whatever. It's a login manager
 from what I can tell.
+
+
+* Diagrams
+
+[[./images/AWS Services.png]]
+
+[[./images/AWS Service Categories.png]]
+
+[[./images/AWS vs trad. IT Diagram.png]]
