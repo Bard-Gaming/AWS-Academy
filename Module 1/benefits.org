@@ -1,0 +1,67 @@
+#+title: AWS Benefits
+#+author: Bard-Gaming
+#+date: Mon Jun  2 11:53:43 2025
+
+
+This describes the 6 benefits of the Cloud, which
+are required in order to pass this module.
+
+** Recap
+- [[1. Variable Expenses]]
+- [[2. Economies]]
+- [[3. On-Demand Capacity]]
+- [[4. (Near-)Instant Deployment]]
+- [[5. Free Maintenance]]
+- [[6. Global Access]]
+
+
+** 1. Variable Expenses
+*Capital Expense (traditional IT) < Variable Expense (Cloud)*
+
+This just means that the cost varies with the usage of your
+service. If you have a service that is used a lot, you will
+pay more, whereas if you have a service that isn't used a lot,
+you'll pay less.
+
+
+** 2. Economies
+*Cost aggregation = less cost for the indiviual*
+
+As explained, since cloud services can aggregate
+(=combine) multiple users into a single physical
+server, the cost for the indiviual user is less
+than with on-premise servers.
+
+
+** 3. On-Demand Capacity
+*Small userbase = low capacity, Big userbase = high capacity*
+
+On-Demand capacity just means that the capacity of your
+service automatically scales up with how many people are
+using your service.
+
+
+** 4. (Near-)Instant deployment
+*Deployment -> 1 click away*
+
+This benefit is what they call "Speed and agility".
+Instead of having to roll out a change onto all of your
+production servers manually, using a Cloud provider
+allows you to update your service across all service
+at the click of a button.
+
+
+** 5. Free Maintenance
+*You don't need to maintain the servers you use*
+
+Nothing much to add here. AWS gives you access to
+their servers, so you obviously don't need to maintain
+them. This means you have one less expense.
+
+
+** 6. Global Access
+*Go global with low latency*
+
+The cloud allows you to have a service across multiple
+regions at once, meaning that your service is accessible
+with low latency worldwide.

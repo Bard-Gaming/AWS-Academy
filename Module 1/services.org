@@ -1,48 +1,54 @@
 #+title: AWS Services
-#+author: Christophe DRONNE
+#+author: Bard-Gaming
 #+date: Mon Jun  2 10:50:39 2025
 
 
-/For the visual diagrams, skip to [[Diagrams]]./
+** Categories
+[[./images/AWS Service Categories.png]]
+
+These categories are used in this documentation to
+make it easier for you to look up specific services.
 
 
-* Storage
+
+** Storage
 Database / Data storage services.
 
-** S3
+*** S3
 "Simply Storage Service", i.e. the service
 you use when you want simple, static pages.
 
-** RDS
+*** RDS
 "Relational Database Service", i.e. the service
 you use when you want a DB in the SQL family.
 
-** DynamoDB
+*** DynamoDB
 Same as RDS except that it uses NoSQL, meaning
 this isn't a relational database.
 
-** Redshift
+*** Redshift
 Highly scalable service, specifically made
 for website analytics.
 
 
 
-* Compute
+** Compute
 Services which allow you to process information.
 
-** EC2
+*** EC2
 Main service for backend implementation
 
-** Lambda
+*** Lambda
 For specific operations that should be run
 only at specific times (not all the time).
 
 
-* Networking / Routing
+
+** Networking / Routing
 Services that are used to do the networking
 required to run a web service.
 
-** Amazon VPC
+*** Amazon VPC
 "Virtual Private Cloud" - full control
 over your service's networking. This includes
 - Physical Placement
@@ -50,18 +56,23 @@ over your service's networking. This includes
 - Choosing IP range
 
 
-* Management
-** Organisations
+
+** Management
+Services that allow you to manage your web
+service more easily.
+
+*** Organisations
 See [[../Module 2/organisations.org][Organisations]] for more info.
 (And yes, they talked about this service in
 particular separately)
 
 
-* Security
+
+** Security
 Services that prevent those gnarly network
 pirates from attack your services! Yarr!
 
-** IAM
+*** IAM
 "Identity and Access Management" - guardrails,
 access management, whatever. It's a login manager
 from what I can tell.
@@ -71,6 +82,5 @@ from what I can tell.
 
 [[./images/AWS Services.png]]
 
-[[./images/AWS Service Categories.png]]
 
 [[./images/AWS vs trad. IT Diagram.png]]
