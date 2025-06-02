@@ -3,9 +3,21 @@
 #+date: Mon Jun  2 11:41:02 2025
 
 
+*** Structure
 This repository is organised into the 10 different modules
 that are required to obtain the Cloud Practitioner certificate.
 
 These are:
 - [[./Module 1][Module 1: Cloud Concepts]]
 - [[./Module 2][Module 2: Cloud Economics and Billing]]
+- others yet to come.
+
+All modules have a general overview in their README.
+You are free to browse this repository as you please.
+
+
+*** Credits
+Everything here is owned by AWS Academy.
+I am merely creating a text support to allow future
+cloud practitioners to have an easier time learning.
+Enjoy !
