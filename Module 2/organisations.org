@@ -1,5 +1,5 @@
 #+title: AWS Organisations
-#+author: Christophe DRONNE
+#+author: Bard-Gaming
 #+date: Mon Jun  2 11:26:09 2025
 
 
