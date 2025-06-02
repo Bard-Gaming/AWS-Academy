@@ -37,7 +37,7 @@ Services which allow you to process information.
 
 *** EC2
 Main service for backend control / implementation.
-You might also want to look into [[../Module 2/billing.org::*Pricing][Reserved Instances for EC2]].
+You might also want to look into [[../Module 2/billing.org#Pricing][Reserved Instances for EC2]].
 
 *** Lambda
 For specific operations that should be run
