@@ -26,11 +26,9 @@ make it easier for you to look up specific services.
 
 
 ** Compute
-Services which allow you to process information.
-
-#+attr_html: width 250px
 [[./images/AWS Compute Services.png]]
 
+Services which allow you to process information.
 
 *** EC2
 The "Elastic Compute Cloud" service allows you to have
@@ -58,11 +56,9 @@ allows you to deploy, manage, and scale containers
 
 
 ** Storage
-Database / Data storage services.
-
-
 [[./images/AWS Storage Services.png]]
 
+Database / Data storage services.
 
 *** EBS
 "Elastic Block Store" is a service that
@@ -93,6 +89,10 @@ or other compute services.
 /allows you to store backup data for cheaper,/
 /but which requires you to wait for longer for/
 /retrieval./
+
+
+
+** Databases
 
 *** RDS
 "Relational Database Service", i.e. the service
