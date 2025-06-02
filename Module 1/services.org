@@ -28,7 +28,7 @@ make it easier for you to look up specific services.
 ** Compute
 Services which allow you to process information.
 
-
+#+attr_html: width 250px
 [[./images/AWS Compute Services.png]]
 
 
