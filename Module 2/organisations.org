@@ -19,4 +19,4 @@ Organisational Units are groups / clusters
 of branches. These OUs are used to apply a specific
 policy onto multiple branches / orgs.
 
-[[./AWS Orgs.png]]
+[[./images/AWS Orgs.png]]
