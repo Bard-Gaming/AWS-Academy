@@ -18,6 +18,12 @@ All modules have a general overview in their README.
 You are free to browse this repository as you please.
 
 
+*** Feedback
+For feedback, please [[./issues/new][create an issue]]!
+
+Feedback is highly appreciated! Thank you \(°v°)/
+
+
 *** Credits
 Everything here is owned by AWS Academy.
 I am merely creating a text support to allow future
