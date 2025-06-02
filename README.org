@@ -19,7 +19,7 @@ You are free to browse this repository as you please.
 
 
 *** Feedback
-For feedback, please [[./issues/new][create an issue]]!
+For feedback, please [[https://github.com/Bard-Gaming/AWS-Academy/issues/new][create an issue]]!
 
 Feedback is highly appreciated! Thank you \(°v°)/
 
