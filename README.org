@@ -8,9 +8,10 @@ This repository is organised into the 10 different modules
 that are required to obtain the Cloud Practitioner certificate.
 
 These are:
-- [[file:Module 1][Module 1: Cloud Concepts]]
-- [[file:Module 2][Module 2: Cloud Economics and Billing]]
-- [[file:Module 3][Module 3: AWS Global Infrastructure]]
+# Note: using "file:" syntax breaks GitHub apparently.
+- [[./Module 1][Module 1: Cloud Concepts]]
+- [[./Module 2][Module 2: Cloud Economics and Billing]]
+- [[./Module 3][Module 3: AWS Global Infrastructure]]
 - others yet to come.
 
 All modules have a general overview in their README.

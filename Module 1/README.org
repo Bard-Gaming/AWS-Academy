@@ -14,5 +14,5 @@ As such, the documentation here isn't very extensive,
 as, quite frankly, that would be a waste of time.
 
 ** Sections
-- [[file:benefits.org][The 6 Benefits of the Cloud]]
-- [[file:services.org][AWS Services]]
+- [[./benefits.org][The 6 Benefits of the Cloud]]
+- [[./services.org][AWS Services]]

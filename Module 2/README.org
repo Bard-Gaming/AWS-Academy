@@ -16,5 +16,5 @@ AWS Organisations can be used to manage the
 pricing better / more accurately.
 
 ** Sections
-- [[file:billing.org][Billing / Pricing]]
-- [[file:organisations.org][Organisations]]
+- [[./billing.org][Billing / Pricing]]
+- [[./organisations.org][Organisations]]
