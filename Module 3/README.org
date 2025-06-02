@@ -21,3 +21,4 @@ causing latency, thanks to a CDN.
 ** Sections
 - [[./regions.org][Regions / Availability Zones]]
 - [[./infrastructure.org][Infrastructure]]
+- [[../Module 1/services.org][Services]]

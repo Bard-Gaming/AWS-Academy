@@ -3,6 +3,20 @@
 #+date: Mon Jun  2 10:50:39 2025
 
 
+** Foreword
+The notes I took on the different notes here are filled
+in with more knowledge than what is required for the
+first module. The idea is that you can glance over the
+different services, without going into detail. The
+modules that come after this one will link back to this
+if required.
+This might seem a bit weird at first, but AWS Services
+are general enough to be referenced in most modules,
+so to avoid repetition, I made this general services
+document.
+
+
+
 ** Categories
 [[./images/AWS Service Categories.png]]
 
@@ -11,12 +25,74 @@ make it easier for you to look up specific services.
 
 
 
+** Compute
+Services which allow you to process information.
+
+
+[[./images/AWS Compute Services.png]]
+
+
+*** EC2
+The "Elastic Compute Cloud" service allows you to have
+VM instances to do virtually anything you want with.
+This means you can run your own programs / applications
+on the Cloud.
+
+You might also want to look into [[../Module 2/billing.org#Pricing][Reserved Instances for EC2]].
+
+The *EC2 Auto Scale* service allows you to scale out your
+application, meaning that new instances will be automatically
+started if the other instances are taking too long / aren't
+responding. This allows you to automatically scale your
+application with user demand.
+
+*** Lambda
+For specific operations that should be run
+only at specific times (not all the time).
+
+*** ECS
+The "Elastic Container Service" is a service that
+allows you to deploy, manage, and scale containers
+(think of Docker but as a Cloud service).
+
+
+
 ** Storage
 Database / Data storage services.
 
+
+[[./images/AWS Storage Services.png]]
+
+
+*** EBS
+"Elastic Block Store" is a service that
+mimicks gives the virtual server a disk,
+like /dev/vda or /dev/vdb.
+EBS is useful when you need high performance
+storage on a single EC2 instance.
+
+*** EFS
+"Elastic File System" is a service that
+provides a typical file system (meaning one
+you are most likely accustomed to).
+It is highly performant, but less so than
+EBS. This, however, is an acceptable tradeoff,
+seeing as you get the ability to share a single
+file system across multiple EC2 instances.
+
 *** S3
-"Simply Storage Service", i.e. the service
-you use when you want simple, static pages.
+"Simple Storage Service" is a service similar
+to EFS, except that it has better availability,
+it's better at archiving data in general, and
+it supports displaying HTML pages, which is why
+it's widely used to host static HTML websites
+which don't require any computation from EC2
+or other compute services.
+
+/Note: S3 glacier is the same, except that it/
+/allows you to store backup data for cheaper,/
+/but which requires you to wait for longer for/
+/retrieval./
 
 *** RDS
 "Relational Database Service", i.e. the service
@@ -29,19 +105,6 @@ this isn't a relational database.
 *** Redshift
 Highly scalable service, specifically made
 for website analytics.
-
-
-
-** Compute
-Services which allow you to process information.
-
-*** EC2
-Main service for backend control / implementation.
-You might also want to look into [[../Module 2/billing.org#Pricing][Reserved Instances for EC2]].
-
-*** Lambda
-For specific operations that should be run
-only at specific times (not all the time).
 
 
 
