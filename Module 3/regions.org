@@ -1,0 +1,53 @@
+#+title: AWS Regions
+#+author: Bard-Gaming
+#+date: Mon Jun  2 14:18:21 2025
+
+
+[[./images/AWS Region Overview.png]]
+
+
+** Data
+Data across regions is replicated by the user,
+not AWS itself.
+This means that if a user creates in account
+in London, the data stored for the account isn't
+automatically copied over into other regions.
+
+
+** Enabling / Disabling Regions
+Most regions are enabled by default.
+In order to use a region, it needs to be turned on
+first in the *AWS Management Console*.
+
+
+** Restricted Access
+Some regions have restricted access, meaning they
+can only communicate between some or no other regions.
+
+For instance, an AWS China Account may only access
+the BeiJing and NingXia regions.
+
+
+** Region Selection
+The following point should be taken into account
+when selecting a region:
+- Proximity to Customers (though this is quite obvious)
+- Legal Requirements (i.e. EU's GDPR)
+- AWS Services (not all are available in all regions)
+- Cost (may vary between regions) -> determines by availability zones
+
+** Availability Zones
+"Availability Zones" are the zones that AWS data centers
+cover. These zones are all 100KM apart of one another,
+and there is a total of 69 (nice) Availability Zones as
+of June 2025 (according to the speaker).
+
+These data centers have around 50 000 to 80 000 physical
+servers.
+
+To reduce latency in a given region, the user may use the
+[[../Module 1/services.org#Amazon CloudFront][Amazon CloudFront]] service.
+
+/Note: It is up to the user to choose which availability zones/
+/will be used, and it is also up to the user to replicate data/
+/across availability zones, if desired./

@@ -1,3 +1,23 @@
 #+title: Module 3: AWS Global Infrastructure
 #+author: Bard-Gaming
 #+date: Mon Jun  2 14:04:19 2025
+
+
+** Descriptive
+This module explains the global infrastructure
+AWS employs to make its services accessible
+worldwide.
+
+** Overview
+AWS uses a global network of data centers to allow
+hosting web services anywhere in the world, all whilst
+keeping the latency as low as possible for the users.
+The regions that are convered by these data centers
+are separate to stay within the bounds of the local
+laws, but are still highly flexible, meaning web
+services can replicate data across regions without
+causing latency, thanks to a CDN.
+
+** Sections
+- [[./regions.org][Regions / Availability Zones]]
+- [[./infrastructure.org][Infrastructure]]

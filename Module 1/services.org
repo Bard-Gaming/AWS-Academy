@@ -56,6 +56,16 @@ over your service's networking. This includes
 - Securing the connections
 - Choosing IP range
 
+*** Amazon CloudFront
+Amazon CloudFront is the service to reduce
+latency across [[../Module 3/regions.org][Availability Zones]], using
+a Content Delivery Network (CDN).
+This is done by caching the relevant content
+in the specified regions, and then serving the
+cached content to the user, which skips the
+length step of fetching the content from the
+server.
+
 
 
 ** Management

@@ -1,0 +1,25 @@
+#+title: AWS Infrastructure
+#+author: Bard-Gaming
+#+date: Mon Jun  2 14:41:21 2025
+
+
+** Elasticity and Scalability
+I won't go too much into detail as I'm
+sure you're already aware of this, but the
+fact that there are upwards of 80K physical
+servers per availability zone means that
+there is virtually no limit to how much you
+can scale your web service, even when restricted
+to a single region (= multiple availability zones).
+
+** Fault Tolerance
+AWS always has multiple Availability Zones within a region,
+meaning that if a data center shuts down for a reason (which
+is unlikely given the backup generators and prevention mechanisms
+AWS has put up), there are still other data centers to cover the
+given region.
+
+To add onto this, minimal human intervention is required, meaning
+that users don't have to wait for workers to approve any changes,
+as this would mean waiting until there are actual people available
+to review everything.
