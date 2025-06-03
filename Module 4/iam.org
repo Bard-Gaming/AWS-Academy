@@ -1,0 +1,62 @@
+#+title: AWS Identification and Access Management Service
+#+author: Bard-Gaming
+#+date: Tue Jun  3 15:52:14 2025
+
+
+** Users
+Users are people who are part of the development
+of your service.
+
+*** Types of Access
+An admin can choose the way users are allowed to
+log into their accounts. These possible ways are:
+- Programmatic Access
+- AWS Management Console
+
+Depending on the administrator's choice, the users
+will be able to log into their accounts with one
+or more of these ways (both are possible).
+
+*** Authentication
+How users authenticate is also determined by the
+administrator. The possible authentication methods
+are as follows:
+
+**** Programmatic Access
+- Access key ID
+- Secret access key
+
+**** AWS Management Console
+- 12-digit Account ID or alias
+- IAM Username
+- IAM Password
+- Multi-factor Authentication (MFA)
+
+
+** Groups
+Groups are, as the name suggests, groupings of users.
+This allows administrators to provide permission policies
+to groups of people, instead of having to manually apply
+a policy to many users.
+
+
+** Policies
+Policies determine what permissions or restrictions
+a User, User Group, or Role has.
+Implicitely, policies have *no permissions*, and *all
+permissions are explicit*.
+
+The following diagram describes this best:
+
+[[./images/AWS IAM Policies.png]]
+
+
+** Roles
+Roles are similar to users in that they are IAM entities
+which are attributed policies. The key difference, is that
+roles grant temporary access to specific AWS resources.
+
+This means, for instance, that you can create an EC2 instance
+with an IAM role that grants it access to read into an S3 bucket.
+This would allow the EC2 instance to easily read the storage bucket,
+without requiring a secret key or anything of the sort.

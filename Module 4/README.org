@@ -1,0 +1,20 @@
+#+title: Module 4: AWS Cloud Security
+#+author: Bard-Gaming
+#+date: Tue Jun  3 15:42:30 2025
+
+
+** Descriptive
+This module explains who bears the responsibility
+of security under given circumstances, and what
+the user can do about it.
+
+** Overview
+AWS is responsible for the security /of/ the
+Cloud, whereas the customer is responsible for
+the security /in/ the Cloud. The customers can
+secure their service using AWS IAM (Identification
+and Access Management).
+
+** Sections
+- [[./responsibility.org][Security Responsibility]]
+- [[./iam.org][AWS Identification and Access Management]]

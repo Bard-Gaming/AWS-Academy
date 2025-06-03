@@ -1,0 +1,22 @@
+#+title: Responsibility
+#+author: Bard-Gaming
+#+date: Tue Jun  3 15:45:25 2025
+
+
+** Responsibility /of/ the Cloud
+AWS is the sole entity responsible for
+all of the security that is required /on/
+the cloud. This includes:
+- Server maintenance
+- Ensuring only necessary people are allowed on-premise
+- Providing the security for the AWS platform
+
+
+** Responsibility /in/ the Cloud
+The customer is the sole entity responsible for
+all of the security that is required /in/ the cloud.
+This includes:
+- All IaaS components / services
+- Configuration of AWS IAM and other
+  security-related services
+- Transfer of (sensible) data
