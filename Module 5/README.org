@@ -1,0 +1,19 @@
+#+title: Module 5: Networking and Content Delivery
+#+author: Bard-Gaming
+#+date: Tue Jun  3 16:22:43 2025
+
+
+** Descriptive
+This module explains the networking aspects of
+AWS, mostly using Amazon Virtual Private Cloud
+(Amazon VPC).
+
+** Overview
+Amazon VPC allows the customer to create custom
+subnets, be they publically accessible, or private.
+These subnets may, public or not, interface with
+other AWS services using NAT gateways (if private).
+For more info, please refer to the sections below.
+
+** Sections
+- Not yet added (coming soon)

@@ -13,6 +13,7 @@ These are:
 - [[./Module 2][Module 2: Cloud Economics and Billing]]
 - [[./Module 3][Module 3: AWS Global Infrastructure]]
 - [[./Module 4][Module 4: AWS Cloud Security]]
+- [[./Module 5][Module 5: Network and Content Delivery]]
 - others yet to come.
 
 All modules have a general overview in their README.
