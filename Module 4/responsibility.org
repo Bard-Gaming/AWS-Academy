@@ -3,7 +3,7 @@
 #+date: Tue Jun  3 15:45:25 2025
 
 
-** Responsibility /of/ the Cloud
+** Responsibility /of/ the Cloud (AWS)
 AWS is the sole entity responsible for
 all of the security that is required /on/
 the cloud. This includes:
@@ -12,11 +12,11 @@ the cloud. This includes:
 - Providing the security for the AWS platform
 
 
-** Responsibility /in/ the Cloud
+** Responsibility /in/ the Cloud (Customer)
 The customer is the sole entity responsible for
 all of the security that is required /in/ the cloud.
 This includes:
-- All IaaS components / services
+- All IaaS components / services (such as EC2)
 - Configuration of AWS IAM and other
   security-related services
 - Transfer of (sensible) data
