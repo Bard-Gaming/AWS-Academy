@@ -12,18 +12,17 @@ official examination, and will most likely be tested.
 #+end_quote
 
 
-** About
+* About
 The AWS Cloud Adoption Framework is a stepping stone
 used to guide businesses into migrating their on-premise
 servers onto the cloud.
 
 
-** Perspectives
+* Perspectives
 The AWS CAF is divided into six core perspectives.
 This section covers those.
 
-
-*** Business
+** Business
 This perspective's priority is to ensure
 *IT is aligned with business needs*.
 
@@ -36,7 +35,7 @@ CAF to create a strong business case for cloud adoption
 and prioritize cloud adoption initiatives.
 #+end_quote
 
-*** People
+** People
 This perspective's priority is *training,
 staffing, and organizational changes* to
 build an agile organization.
@@ -50,7 +49,7 @@ organizational structures and roles, new skill
 and process requirements, and identify gaps.
 #+end_quote
 
-*** Governance
+** Governance
 This perspective's priority is to *align IT
 strategy and goals with business strategy and goals*
 so the organization can maximize the business value
@@ -68,7 +67,7 @@ This focus helps the organization maximize the business
 value of its IT investment and minimize the business risks.
 #+end_quote
 
-*** Platform
+** Platform
 This perspective's priority is to *understand and
 communicate the nature of IT systems and their relationships*.
 Another aspect it to be able to *describe the architecture
@@ -87,7 +86,7 @@ implementing new solutions on the cloud, and for
 migrating on premises workloads to the cloud.
 #+end_quote
 
-*** Security
+** Security
 This perspective's priority is to ensure that
 *the organization meets its security objectives*.
 
@@ -103,7 +102,7 @@ and implementation of security controls that
 meet the organization’s needs.
 #+end_quote
 
-*** Operations
+** Operations
 This perspective's priority is to *define how day-to-day,
 quarter-to-quarter, and year-to-year business will be conducted*.
 
@@ -121,7 +120,7 @@ adoption.
 #+end_quote
 
 
-** Summary
+* Summary
 1. Cloud adoption is not instantaneous for most organizations
   and requires a thoughtful, deliberate strategy and alignment
   across the whole organization.
