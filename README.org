@@ -1,7 +1,7 @@
 #+title: AWS Academy Notes
 #+author: Bard-Gaming
 #+date: Mon Jun  2 11:41:02 2025
-#+options: toc:2
+#+options: toc:1
 
 
 #+begin_quote
@@ -13,7 +13,7 @@ be context/additional information missing.
 #+end_quote
 
 
-*** Structure
+** Structure
 This repository is organised into the 10 different modules
 that are required to obtain the Cloud Practitioner certificate.
 
@@ -30,13 +30,13 @@ All modules have a general overview in their README.
 You are free to browse this repository as you please.
 
 
-*** Feedback
+** Feedback
 For feedback, please [[https://github.com/Bard-Gaming/AWS-Academy/issues/new][create an issue]]!
 
 Feedback is highly appreciated! Thank you \(°v°)/
 
 
-*** Credits
+** Credits
 Everything here is owned by AWS Academy.
 I am merely creating a text support to allow future
 cloud practitioners to have an easier time learning.
