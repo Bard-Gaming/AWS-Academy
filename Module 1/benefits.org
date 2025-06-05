@@ -6,16 +6,24 @@
 This describes the 6 benefits of the Cloud, which
 are required in order to pass this module.
 
-** Recap
-- [[1. Variable Expenses]]
-- [[2. Economies]]
-- [[3. On-Demand Capacity]]
-- [[4. (Near-)Instant Deployment]]
-- [[5. Free Maintenance]]
-- [[6. Global Access]]
+* Benefits
+
+In short, the 6 benefits are:
+# Yeah idk these links are kinda atrocious, mb
+# I could've used numbered headings, but I don't
+# want the Benefits heading to be numbered too.
+1. [[1. Variable Expenses][Variable Expenses]]
+2. [[2. Economies][Economies]]
+3. [[3. On-Demand Capacity][On-Demand Capacity]]
+4. [[4. (Near-)Instance Deployment][(Near-)Instant Deployment]]
+5. [[5. Free Maintenance][Free Maintenance]]
+6. [[6. Global Access][Global Access]]
+
+/For more detail, please click on the links or read
+the sections below./
 
 
-** 1. Variable Expenses
+* 1. Variable Expenses
 *Capital Expense (traditional IT) < Variable Expense (Cloud)*
 
 This just means that the cost varies with the usage of your
@@ -24,7 +32,7 @@ pay more, whereas if you have a service that isn't used a lot,
 you'll pay less.
 
 
-** 2. Economies
+* 2. Economies
 *Cost aggregation = less cost for the indiviual*
 
 As explained, since cloud services can aggregate
@@ -33,7 +41,7 @@ server, the cost for the indiviual user is less
 than with on-premise servers.
 
 
-** 3. On-Demand Capacity
+* 3. On-Demand Capacity
 *Small userbase = low capacity, Big userbase = high capacity*
 
 On-Demand capacity just means that the capacity of your
@@ -41,7 +49,7 @@ service automatically scales up with how many people are
 using your service.
 
 
-** 4. (Near-)Instant deployment
+* 4. (Near-)Instant deployment
 *Deployment -> 1 click away*
 
 This benefit is what they call "Speed and agility".
@@ -51,7 +59,7 @@ allows you to update your service across all service
 at the click of a button.
 
 
-** 5. Free Maintenance
+* 5. Free Maintenance
 *You don't need to maintain the servers you use*
 
 Nothing much to add here. AWS gives you access to
@@ -59,7 +67,7 @@ their servers, so you obviously don't need to maintain
 them. This means you have one less expense.
 
 
-** 6. Global Access
+* 6. Global Access
 *Go global with low latency*
 
 The cloud allows you to have a service across multiple

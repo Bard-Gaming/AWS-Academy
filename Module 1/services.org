@@ -1,23 +1,24 @@
 #+title: AWS Services
 #+author: Bard-Gaming
 #+date: Mon Jun  2 10:50:39 2025
+#+options: toc:1
 
 
-** Foreword
-The notes I took on the different notes here are filled
-in with more knowledge than what is required for the
-first module. The idea is that you can glance over the
-different services, without going into detail. The
-modules that come after this one will link back to this
-if required.
-This might seem a bit weird at first, but AWS Services
-are general enough to be referenced in most modules,
-so to avoid repetition, I made this general services
-document.
+#+begin_quote
+[!NOTE]
+All services covered here may or may not be
+useful for the first module. It is not imperative
+that you learn all of these before completing the
+first module, but nevertheless all services mentioned
+here are /required/ for the official examination.
+#+end_quote
 
 
+/Feel free to refer back to the notes on these services
+later on./
 
-** Categories
+
+* Categories
 [[./images/AWS Service Categories.png]]
 
 These categories are used in this documentation to
@@ -36,7 +37,20 @@ VM instances to do virtually anything you want with.
 This means you can run your own programs / applications
 on the Cloud.
 
+It is important to note that EC2 instances *do not have
+persistent data* and *will lose all of their data when
+terminated*. To have persistent data, please refer to [[Storage]].
+
+#+begin_quote
+[!NOTE]
+The temporary data stored in EC2 instances is called the
+/EC2 instance store/.
+#+end_quote
+
 You might also want to look into [[../Module 2/billing.org#Pricing][Reserved Instances for EC2]].
+
+*** EC2 Auto Scale
+/Not to be confused with/ AWS Auto Scale​/./
 
 The *EC2 Auto Scale* service allows you to scale out your
 application, meaning that new instances will be automatically
@@ -58,23 +72,15 @@ allows you to deploy, manage, and scale containers
 ** Storage
 [[./images/AWS Storage Services.png]]
 
-Database / Data storage services.
+Persistent data storage services.
 
 *** EBS
 "Elastic Block Store" is a service that
-mimicks gives the virtual server a disk,
-like /dev/vda or /dev/vdb.
+mimicks virtual drives, allowing you to
+mount the virtual disk to an existing
+[[EC2]] instance.
 EBS is useful when you need high performance
 storage on a single EC2 instance.
-
-*** EFS
-"Elastic File System" is a service that
-provides a typical file system (meaning one
-you are most likely accustomed to).
-It is highly performant, but less so than
-EBS. This, however, is an acceptable tradeoff,
-seeing as you get the ability to share a single
-file system across multiple EC2 instances.
 
 *** S3
 "Simple Storage Service" is a service similar
@@ -85,27 +91,49 @@ it's widely used to host static HTML websites
 which don't require any computation from EC2
 or other compute services.
 
-/Note: S3 glacier is the same, except that it/
-/allows you to store backup data for cheaper,/
-/but which requires you to wait for longer for/
-/retrieval./
+/Note: S3 glacier and S3 deep glacier are the same,
+except that they allow you to store backup data for
+/cheaper, but which requires you to wait for longer
+/for retrieval./
 
+*** EFS
+"Elastic File System" is a service that
+provides a typical file system (meaning one
+you are most likely accustomed to).
+It is highly performant, but less so than
+EBS. This, however, is an acceptable tradeoff,
+seeing as you get the ability to share a single
+file system across multiple EC2 instances.
 
 
 ** Databases
+Database services allow you to have large sets of
+persistent data in a structured way.
+In general, *you should choose NoSQL services (i.e.*
+*DynamoDB) over SQL services if you don't require
+complex query operations*.
 
 *** RDS
 "Relational Database Service", i.e. the service
 you use when you want a DB in the SQL family.
+You may choose your SQL engine among the many
+that are at your disposal.
+
+*** Aurora
+Similar to RDS, except that this is more optimized
+and is highly scalable. However, it is limited
+to MySQL and PostgreSQL. This should be used over
+RDS when possible.
 
 *** DynamoDB
 Same as RDS except that it uses NoSQL, meaning
-this isn't a relational database.
+this isn't a relational database. If there isn't
+a fixed schema for the data you wish to store,
+choose this.
 
 *** Redshift
 Highly scalable service, specifically made
 for website analytics.
-
 
 
 ** Networking / Routing
@@ -133,7 +161,7 @@ server.
 
 ** Management
 Services that allow you to manage your web
-service more easily.
+service on AWS more easily.
 
 *** Organisations
 See [[../Module 2/organisations.org][Organisations]] for more info.
@@ -144,12 +172,14 @@ particular separately)
 
 ** Security
 Services that prevent those gnarly network
-pirates from attack your services! Yarr!
+pirates from attacking your web service! Yarr!
 
 *** IAM
 "Identity and Access Management" - guardrails,
-access management, whatever. It's a login manager
-from what I can tell.
+access management, whatever. Basically it's the
+service you use when you want to restrict permissions
+in your AWS environment. For more info, you should
+check out [[../Module 4/iam.org][AWS IAM]].
 
 
 * Diagrams
