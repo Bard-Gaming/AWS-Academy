@@ -1,0 +1,134 @@
+#+title: AWS Cloud Adoption Framework (AWS CAF)
+#+author: Bard-Gaming
+#+date: Thu Jun  5 11:13:55 2025
+#+options: toc:1
+
+
+#+begin_quote
+[!IMPORTANT]
+Even if this section isn't in the module's knowledge
+test, information covered in the AWS CAF are part of the
+official examination, and will most likely be tested.
+#+end_quote
+
+
+** About
+The AWS Cloud Adoption Framework is a stepping stone
+used to guide businesses into migrating their on-premise
+servers onto the cloud.
+
+
+** Perspectives
+The AWS CAF is divided into six core perspectives.
+This section covers those.
+
+
+*** Business
+This perspective's priority is to ensure
+*IT is aligned with business needs*.
+
+A quote I've seen appear as a question is:
+#+begin_quote
+Stakeholders from the Business perspective (for
+example, business managers, finance managers, budget
+owners, and strategy stakeholders) can use the AWS
+CAF to create a strong business case for cloud adoption
+and prioritize cloud adoption initiatives.
+#+end_quote
+
+*** People
+This perspective's priority is *training,
+staffing, and organizational changes* to
+build an agile organization.
+
+An important quote is:
+#+begin_quote
+Stakeholders from the People perspective (for
+example, human resources, staffing, and people
+managers) can use the AWS CAF to evaluate
+organizational structures and roles, new skill
+and process requirements, and identify gaps.
+#+end_quote
+
+*** Governance
+This perspective's priority is to *align IT
+strategy and goals with business strategy and goals*
+so the organization can maximize the business value
+of its IT investment and minimize business risks.
+
+An important quote is:
+#+begin_quote
+Stakeholders from the Governance perspective (for
+example, the Chief Information Officer or CIO, program
+managers, enterprise architects, business analysts,
+and portfolio managers) can use the AWS CAF to focus on
+the skills and processes that are needed to align IT
+strategy and goals with business strategy and goals.
+This focus helps the organization maximize the business
+value of its IT investment and minimize the business risks.
+#+end_quote
+
+*** Platform
+This perspective's priority is to *understand and
+communicate the nature of IT systems and their relationships*.
+Another aspect it to be able to *describe the architecture
+of the target state environment in detail*.
+
+#+begin_quote
+Stakeholders from the Platform perspective (for
+example, Chief Technology Officer or CTO, IT
+managers, and solutions architects) use a variety
+of architectural dimensions and models to understand
+and communicate the nature of IT systems and their
+relationships. They must be able to describe the
+architecture of the target state environment in detail.
+The AWS CAF includes principles and patterns for
+implementing new solutions on the cloud, and for
+migrating on premises workloads to the cloud.
+#+end_quote
+
+*** Security
+This perspective's priority is to ensure that
+*the organization meets its security objectives*.
+
+#+begin_quote
+Stakeholders from the Security perspective (for
+example, Chief Information Security Officer or
+CISO, IT security managers, and IT security analysts)
+must ensure that the organization meets security
+objectives for visibility, auditability, control,
+and agility. Security perspective stakeholders
+can use the AWS CAF to structure the selection
+and implementation of security controls that
+meet the organization’s needs.
+#+end_quote
+
+*** Operations
+This perspective's priority is to *define how day-to-day,
+quarter-to-quarter, and year-to-year business will be conducted*.
+
+#+begin_quote
+Stakeholders from the Operations perspective (for
+example, IT operations managers and IT support
+managers) define how day-to-day, quarter-to-quarter,
+and year-to-year business is conducted. Stakeholders
+from the Operations perspective align with and support
+the operations  of the business. The AWS CAF helps
+these stakeholders define current operating procedures.
+It also helps them identify the process changes and
+training that are needed to implement successful cloud
+adoption.
+#+end_quote
+
+
+** Summary
+1. Cloud adoption is not instantaneous for most organizations
+  and requires a thoughtful, deliberate strategy and alignment
+  across the whole organization.
+2. The AWS CAF was created to help organizations develop
+  efficient and effective plans for their cloud adoption
+  journey.
+3. The AWS CAF organizes guidance into six areas of focus,
+  called perspectives.
+4. Perspectives consist of sets of business or technology
+  capabilities that are the responsibility of key stakeholders.
